@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form>
+            <h1>Login to start creating a accunt</h1>
+            <label for="username">username</label>
+            <input type="text" name="username" id="username">
+            <br><br>
+
+            <label for="user-pw">Password</label>
+            <input type="password" name="user-pw" id="user-pw">
+            <br><br>
+            
+            <label for="amount">Amount</label>
+            <input type="number" name="amount"id="amount" step="10">
+            <br><br>
+            <label for="songs">volume</label>
+            <span>Low</span>
+             <input type="range" id="songs" name="songs">
+            <span>High</span>
+            <br>
+            <input id="phy" name="topping" type="checkbox" value="phy">
+          <label for="phy">Physics</label>
+          <br>
+          <input id="chem" name="topping" type="checkbox" value="chem">
+          <label for="chem">Chemistry</label>
+          <br>
+          <h3>choose gander</h3>
+          <input id="male" type="radio" name="cheese" value="male">
+
+          <label for="male">Male</label>
+          <input id="female" type="radio" name="cheese" value="female">
+
+          <label for="female">Female</label><br><br>
+          <h3>select city</h3>
+          <select>
+              <option value="deesa">Deesa</option>
+              <option value="palanpur">palanpur</option>
+              <option value="tharad">tharad</option>
+              <option value="dhanera">dhanera</option>
+          </select>
+            <input list="sauces" id="sauce" name="sauce">
+			<datalist id="sauces">
+                <option value="Deesa"></option>
+                <option value="Patan"></option>
+                <option value="Ahmedabad"></option>
+          </datalist><br><br>
+          <textarea id="extra" name="extra" rows="3" cols="40">Give Feedback</textarea>
+          <br><br>
+          <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
