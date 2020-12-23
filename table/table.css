@@ -1,0 +1,16 @@
+body {
+    background: #EEE;
+    margin: 0;
+    padding: 0;
+  }
+  table {
+    height: 40%;
+    margin: 20px 50px ;
+    width: 80%;
+    text-align: center;
+  }
+  thead th{
+    background: #88CCF1;
+  }
+  table, td {
+    border: 1px solid black;
